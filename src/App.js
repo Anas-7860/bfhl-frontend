@@ -8,7 +8,7 @@ function App() {
   const [error, setError] = useState('');
   const [selectedFilters, setSelectedFilters] = useState([]);
 
-  const API_URL = 'http://bfhl-backend-l9mwh85fs-anas-khans-projects-72a4b0fa.vercel.app'; // Replace with your deployed backend URL
+  const API_URL = 'https://bfhl-backend-l9mwh85fs-anas-khans-projects-72a4b0fa.vercel.app/bfhl'; // Replace with your deployed backend URL
 
   const handleSubmit = async (e) => {
     e.preventDefault();
